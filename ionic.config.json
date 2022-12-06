@@ -1,0 +1,7 @@
+{
+  "name": "simcrianca",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
