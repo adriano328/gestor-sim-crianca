@@ -6,43 +6,48 @@
   </ion-header>
 </div>
 <ion-content>
-  <div class="form-container">
-    <ion-card class="card">
-      <p style="font-size: 15px; text-align: center;">Preencha todos os dados abaixo!</p>
-      <p style="font-size: 15px; text-align: center; margin-bottom: 2em;">Clique na camera para inserir uma foto!</p>
-    <form [formGroup]="forms">
-      <ion-grid>
-        <ion-row>
-          <div class="camera-content">
-            <ion-img class="camera" src="/assets/cam.png" alt=""></ion-img>
-          </div>
-          <ion-col size="12">
-            <ion-input class="input-cadastro" placeholder="Nome Completo"></ion-input>
-          </ion-col>
-          <ion-col size="12">
-            <ion-input class="input-cadastro" placeholder="Data Nascimento"></ion-input>
-          </ion-col>
-          <ion-col size="12">
-            <ion-input class="input-cadastro" placeholder="Idade"></ion-input>
-          </ion-col>
-          <ion-col size="6">
-            <ion-input class="input-cadastro" placeholder="Sala"></ion-input>
-          </ion-col>
-          <ion-col size="6">
-            <ion-input class="input-cadastro" placeholder="Sexo"></ion-input>
-          </ion-col>
-          <ion-col size="12">
-            <ion-textarea class="textarea" placeholder="Observação" style="border: 1px solid #A9A9A9; border-radius: 5px; height: 80px;"></ion-textarea>
-          </ion-col>
-          <ion-col size="12">
-            <div class="button-container">
-              <button>Salvar</button>
+  <div class="card-form">
+    <div class="form-container">
+      <ion-card class="card">
+        <p style="font-size: 15px; text-align: center;">Preencha todos os dados abaixo!</p>
+        <p style="font-size: 15px; text-align: center; margin-bottom: 2em;">Clique na camera para inserir uma foto!</p>
+      <form [formGroup]="forms">
+        <ion-grid>
+          <ion-row>
+            <div class="camera-content">
+              <ion-img class="camera" src="/assets/cam.png" alt=""></ion-img>
             </div>
-          </ion-col>
-        </ion-row>
-      </ion-grid>
-    </form>
-    </ion-card>
+            <ion-col size="12">
+              <ion-input class="input-cadastro" placeholder="Nome Completo"></ion-input>
+            </ion-col>
+            <ion-col size="12">
+              <ion-input class="input-cadastro" placeholder="Data Nascimento"></ion-input>
+            </ion-col>
+            <ion-col size="12">
+              <ion-input class="input-cadastro" placeholder="Idade"></ion-input>
+            </ion-col>
+            <ion-col size="6">
+              <ion-input class="input-cadastro" placeholder="Sala"></ion-input>
+            </ion-col>
+            <ion-col size="6">
+              <ion-input class="input-cadastro" placeholder="Sexo"></ion-input>
+            </ion-col>
+            <ion-col size="12">
+              <ion-textarea class="textarea" placeholder="Observação: Restrições alimentares, Alergias e etc.." style="border: 1px solid #A9A9A9; border-radius: 5px; height: 80px;"></ion-textarea>
+            </ion-col>
+            <ion-col size="12">
+              <div class="button-container">
+                <button>Salvar</button>
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </form>
+      </ion-card>
+    </div>
   </div>
 </ion-content>
-
+<ion-footer>
+  <div class="footer">
+  </div>
+</ion-footer>

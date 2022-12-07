@@ -8,8 +8,19 @@
 
 <ion-content>
   <div class="card-container">
-    <ion-card class="card">
-
-    </ion-card>
+    <div class="card">
+      <ion-card class="card-ion">
+        <img src="{{child.foto}}" class="foto" alt="">
+        <p>Nome<br>{{child.nome}}</p>
+        <p>Idade<br> {{child.idade}} anos</p>
+        <p>Sala<br> {{child.sala}}</p>
+        <p>Responsavel<br> {{child.nome}}</p>
+        <p>Observação<br> {{child.observacao}}</p>
+      </ion-card>
+    </div>
   </div>
 </ion-content>
+<ion-footer>
+  <div class="footer">
+  </div>
+</ion-footer>
