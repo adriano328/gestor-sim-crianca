@@ -4,11 +4,38 @@
     display: flex;
     background-color: #24cecd;
     align-items: center;
+    justify-content: right;
 
-    .arrow-back-outline {
+    .add-outline {
       color: white;
-      margin-left: 0.5em;
+      margin-right: 0.5em;
       font-size: 30px;
     }
+  }
 }
+
+.galery {
+  background-color: #cdfbfb;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .card {
+    width: 60%;
+
+    p {
+      text-align: center;
+    }
+  }
+}
+
+.footer {
+  height: 50px;
+  display: flex;
+  background-color: #24cecd;
+  align-items: center;
+  justify-content: right;
 }
