@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'child-register',
     loadChildren: () => import('./pages/child-register/child-register.module').then( m => m.ChildRegisterPageModule)
   },
+  {
+    path: 'profile',
+    loadChildren: () => import('./pages/profile/profile.module').then( m => m.ProfilePageModule)
+  },
 ];
 
 @NgModule({
